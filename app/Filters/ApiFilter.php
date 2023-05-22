@@ -4,7 +4,7 @@ namespace App\Filters\V1;
 
 use Illuminate\Http\Request;
 
-class CustomerQuery {
+class CustomersFilter extends ApiFilter {
     protected $safeParams = [
         'name' => ['eq'],
         'type' => ['eq'],
